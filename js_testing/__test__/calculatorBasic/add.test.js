@@ -1,4 +1,4 @@
-const add = require('../lib/add');
+const add = require('../../lib/calculatorBasic/add');
 
 test('adds 1 + 2 to equal 3', () => {
   expect(add(1, 2)).toBe(3);
