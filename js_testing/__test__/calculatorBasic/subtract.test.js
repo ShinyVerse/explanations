@@ -1,4 +1,4 @@
-const subtract = require('../../lib/calculatorBasic/subtract');
+const subtract = require('../../scripts/calculatorBasic/subtract');
 
 test('can subtract whole numbers', () => {
   expect(subtract(4,1)).toBe(3);
